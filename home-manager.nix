@@ -6,10 +6,10 @@
   home-manager = {
     useUserPackages = false;
     useGlobalPkgs = true;
-    users.jcarter = {
+    users.sandipndev = {
       programs.home-manager.enable = true;
-      home.username = "jcarter";
-      home.homeDirectory = "/Users/jcarter";
+      home.username = "sandipndev";
+      home.homeDirectory = "/Users/sandipndev";
       home.packages = [
         pkgs.silver-searcher
         pkgs.karabiner-elements

@@ -8,8 +8,8 @@
     gc.automatic = true;
     configureBuildUsers = true;
   };
-  users.users.jcarter = {
-    home = "/Users/jcarter";
+  users.users.sandipndev = {
+    home = "/Users/sandipndev";
     shell = pkgs.zsh;
   };
 
