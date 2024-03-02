@@ -27,8 +27,8 @@
       ];
       programs.git = {
         enable = true;
-        userName = "bodymindarts";
-        userEmail = "justin@galoy.io";
+        userName = "sandipndev";
+        userEmail = "hey@sandipan.dev";
         extraConfig = {
           init = {defaultBranch = "main";};
           core = {editor = "vim";};

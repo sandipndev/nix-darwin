@@ -17,7 +17,7 @@
   }: {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations.Justins-MacBook-Pro = nix-darwin.lib.darwinSystem {
+    darwinConfigurations.Sandipans-Laptop = nix-darwin.lib.darwinSystem {
       modules = [
         {
           nixpkgs.overlays = [
@@ -31,7 +31,7 @@
     };
 
     # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations.Justins-MacBook-Pro.pkgs;
+    darwinPackages = self.darwinConfigurations.Sandipans-Laptop.pkgs;
     formatter.x86_64-darwin = nixpkgs.legacyPackages.x86_64-darwin.alejandra;
   };
 }

@@ -2,7 +2,7 @@
   enable = true;
   sessionVariables.EDITOR = "vim";
   sessionVariables.RPROMPT = "";
-  sessionVariables.BASTION_USER = "justin_galoy_io";
+  sessionVariables.BASTION_USER = "sandipan_galoy_io";
   sessionVariables.CARGO_NET_GIT_FETCH_WITH_CLI = "true";
 
   initExtra = ''
